@@ -1,0 +1,164 @@
+
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Baloo Paaji 2', cursive;
+  color: #40514E;
+
+}
+h1 {
+  margin: 3.12rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+
+
+
+}
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+.sub-title {
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Baloo Paaji 2', cursive;
+  margin: 20px;
+  text-decoration: none;
+}
+a:hover {
+  transition: .5s;
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  width: 2.5%;
+  border-top: 6px dotted #EAF6F6;
+  margin: 100px auto;
+
+}
+
+p {
+  line-height: 2;
+}
+
+
+/*--------------------Container Divs-----------------*/
+
+
+.top-container {
+  background-color: #f2f6f5;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #93b5b3;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+
+/*--------------------Class-----------------*/
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+}
+.skills-1-img {
+  margin-right: 30px;
+  width: 15%;
+  float: left;
+}
+.skills-2-img {
+  margin-left: 30px;
+  width: 15%;
+  float: right;
+}
+.skill-row {
+  width: 40%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 20%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+
+/*--------------------Button-----------------*/
+
+
+.btn {
+	background-color:#63707e;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:36px;
+	line-height:36px;
+width:137px;
+	text-decoration:none;
+	text-align:center;
+}.btn:hover {
+	background-color:#93b5b3;
+  transition: .5s;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
